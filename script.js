@@ -24,7 +24,7 @@ const paginas = [
     derecha: {
       titulo: "Capítulo 4",
       imagen: "img4.jpg",
-      texto: "Todo final es también un comienzo."
+      texto: "y por ultimo quiero recordarte que yo siempre estaré para ti en las buenas y las malas, cada dia intento mejorar para estar mejor y hacerte muy feliz y asi será hasta que sea abuelita, siempre resolveré los problemas para que estemos bien y cuidar mucho tu corazoncito mi vida"
     }
   }
 ];
@@ -110,3 +110,31 @@ function renderPaginas() {
   izquierda.setAttribute("data-page", paginaActual * 2 + 1);
   derecha.setAttribute("data-page", paginaActual * 2 + 2);
 }
+
+function crearCorazones() {
+  const contenedor = document.querySelector(".corazones-fondo");
+
+  setInterval(() => {
+    const corazon = document.createElement("div");
+    corazon.classList.add("corazon");
+    corazon.innerHTML = "♥";
+
+    // posición horizontal aleatoria
+    corazon.style.left = Math.random() * 100 + "vw";
+
+    // MÁS GRANDES
+    corazon.style.fontSize = 28 + Math.random() * 40 + "px";
+
+    // MÁS LENTOS Y SUAVES
+    corazon.style.animationDuration = 6 + Math.random() * 6 + "s";
+
+    contenedor.appendChild(corazon);
+
+    setTimeout(() => {
+      corazon.remove();
+    }, 12000);
+
+  }, 120); // ← MÁS ABUNDANTES (antes 300)
+}
+
+crearCorazones();
