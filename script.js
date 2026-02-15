@@ -6,12 +6,12 @@ const paginas = [
     izquierda: {
       titulo: "DARLING",
       imagen: "fotos/IMG2.png",
-      texto: "Amor buenas noches, se q es tarde pero la verdad queria hacerte este detalle por lo mucho que te amo. tu sabes que hoy estaba mal pero igualmente me disculpo,tambien me disculpo por lo del pollo creo que hice mal en no exigir pero dejando eso, encontre esto en mis recuerdos.se q son de roblox pero para mi es importante por todo lo q vivimos esos  tiempos."
+      texto: "Amor buenas noches, se q es tarde pero la verdad queria hacerte este detalle por lo mucho que te amo. tu sabes que hoy estaba mal pero igualmente me disculpo,tambien me disculpo por lo del pollo creo que hice mal en no exigir pero dejando eso, encontre esto en mis recuerdos.se q son de roblox pero para mi es importante por todo lo q vivimos esos tiempos."
     },
     derecha: {
-      titulo: "Capítulo 2: El Digno Rival",
-      imagen: "img2.jpg",
-      texto: "El último nuke no es solo el más fuerte…"
+      titulo: "HONEY",
+      imagen: "fotos/IMG4.png",
+      texto: "Amor, yo quiero estar toda mi vida contigo por que para mi eres la mejor persona del mundo, para mi solo existes tu, te amo mucho demasiado, que cada vez que pienso en ti me pongo muy feliz y empiezo a llorar de felicidad"
     }
   },
 
@@ -67,32 +67,27 @@ function renderPaginas() {
 
   /* ====== PÁGINA IZQUIERDA ====== */
 
-  if (paginaActual === 0) {
-    // Diseño romántico especial para Capítulo 1
-    izquierda.innerHTML = `
-      <h2>${pagina.izquierda.titulo}</h2>
+  izquierda.innerHTML = `
+    <h2>${pagina.izquierda.titulo}</h2>
 
-      <div class="marco-foto">
-        <img src="${pagina.izquierda.imagen}" class="imagen-romantica">
-        <span class="nota-foto">♥</span>
-      </div>
+    <div class="marco-foto">
+      <img src="${pagina.izquierda.imagen}" class="imagen-romantica">
+      <span class="nota-foto">♥</span>
+    </div>
 
-      <p>${pagina.izquierda.texto}</p>
-    `;
-  } else {
-    // Diseño normal para otras páginas
-    izquierda.innerHTML = `
-      <h2>${pagina.izquierda.titulo}</h2>
-      <img src="${pagina.izquierda.imagen}" class="imagen-pagina">
-      <p>${pagina.izquierda.texto}</p>
-    `;
-  }
+    <p>${pagina.izquierda.texto}</p>
+  `;
 
   /* ====== PÁGINA DERECHA ====== */
 
   derecha.innerHTML = `
     <h2>${pagina.derecha.titulo}</h2>
-    <img src="${pagina.derecha.imagen}" class="imagen-pagina">
+
+    <div class="marco-foto">
+      <img src="${pagina.derecha.imagen}" class="imagen-romantica">
+      <span class="nota-foto">♥</span>
+    </div>
+
     <p>${pagina.derecha.texto}</p>
 
     <div class="controles">
@@ -110,9 +105,8 @@ function renderPaginas() {
     </div>
   `;
 
-  /* ====== NUMERACIÓN DE PÁGINAS ====== */
+  /* ====== NUMERACIÓN ====== */
 
   izquierda.setAttribute("data-page", paginaActual * 2 + 1);
   derecha.setAttribute("data-page", paginaActual * 2 + 2);
 }
-
