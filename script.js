@@ -6,12 +6,12 @@ const paginas = [
     izquierda: {
       titulo: "DARLING",
       imagen: "fotos/IMG2.png",
-      texto: "Amor buenas noches, se que es tarde pero la verdad queria hacerte este detalle por lo mucho que te amo. tu sabes que hoy estaba mal pero igualmente me disculpo,tambien me disculpo por lo del pollo creo que hice mal en no exigir pero dejando eso, encontre esto en mis recuerdos.se q son de roblox pero para mi es importante por todo lo q vivimos esos tiempos."
+      texto: "Amor, buenas noches. Sé que es tarde, pero la verdad quería hacerte este detalle por lo mucho que te amo. Tú sabes que hoy estaba mal, pero igualmente me disculpo. También me disculpo por lo del pollo, creo que hice mal en no exigir, pero dejando eso, encontré esto en mis recuerdos. Sé que son de Roblox, pero para mí es importante por todo lo que vivimos en esos tiempos."
     },
     derecha: {
       titulo: "HONEY",
       imagen: "fotos/IMG4.png",
-      texto: "Amor, yo quiero estar toda mi vida contigo por que para mi eres la mejor persona del mundo, para mi solo existes tu, te amo mucho demasiado, que cada vez que pienso en ti me pongo muy feliz y empiezo a llorar de felicidad"
+      texto: "Amor, yo quiero estar toda mi vida contigo porque para mí eres la mejor persona del mundo. Para mí solo existes tú. Te amo mucho, demasiado, que cada vez que pienso en ti me pongo muy feliz y empiezo a llorar de felicidad."
     }
   },
 
@@ -19,15 +19,16 @@ const paginas = [
     izquierda: {
       titulo: "11 JUNIO",
       imagen: "fotos/IMG6.jpg",
-      texto: "Amor eres una gran persona, se que cumplirás cada una de tus metas y yo siempre te apoyaré en todo lo que tu quieras, quiero que te vaya bien en tu carrera, con tu familia y que tu seas muy feliz por que eres una gran mujer y te lo mereces."
+      texto: "Amor, eres una gran persona. Sé que cumplirás cada una de tus metas y yo siempre te apoyaré en todo lo que tú quieras. Quiero que te vaya bien en tu carrera, con tu familia y que tú seas muy feliz porque eres una gran mujer y te lo mereces. Amor, quizá no me puedo comparar con las anteriores personas con las que estuviste, pero yo te amo mucho, nadie te amará como yo. Siempre te respetaré y te seré fiel con toda mi alma. Perdón por lastimarte y hacerte sentir triste, mi Ari. Intentaré cuidar más tu corazón."
     },
     derecha: {
       titulo: "Eternal Sunshine",
       imagen: "fotos/IMG5.png",
-      texto: "Y por ultimo quiero recordarte que yo siempre estaré para ti en las buenas y las malas, cada dia intento mejorar para estar mejor y hacerte muy feliz y asi será hasta que sea abuelita, siempre resolveré los problemas para que estemos bien y cuidar mucho tu corazoncito mi vida muchas gracias por las flores, soy la mujer mas feliz del mundo y yo se que quiza soy muy tonta pero creeme que el amor q yo siento por ti es muy grande quisiera ser tu enamorada, tu novia y tu esposa"
+      texto: "Y por último quiero recordarte que yo siempre estaré para ti en las buenas y en las malas. Cada día intento mejorar para estar mejor y hacerte muy feliz y así será hasta que sea abuelita. Siempre resolveré los problemas para que estemos bien y cuidar mucho tu corazoncito, mi vida. Muchas gracias por las flores, soy la mujer más feliz del mundo y yo sé que quizá soy muy tonta, pero créeme que el amor que yo siento por ti es muy grande. Quisiera ser tu enamorada, tu novia y tu esposa."
     }
   }
 ];
+
 
 /* ================= AUDIO ================= */
 
