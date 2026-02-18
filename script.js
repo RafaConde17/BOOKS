@@ -4,27 +4,27 @@ let paginaActual = 0;
 const paginas = [
   {
     izquierda: {
-      titulo: "DARLING",
+      titulo: "CAMINANDO A TU LADO",
       imagen: "fotos/IMG2.png",
-      texto: "Amor, buenas noches. Sé que es tarde, pero la verdad quería hacerte este detalle por lo mucho que te amo. Tú sabes que hoy estaba mal, pero igualmente me disculpo. También me disculpo por lo del pollo, creo que hice mal en no exigir, pero dejando eso, encontré esto en mis recuerdos. Sé que son de Roblox, pero para mí es importante por todo lo que vivimos en esos tiempos."
+      texto: "Caminar a tu lado es la paz de mi alma; cada paso contigo le da sentido a mi vida. No importa el destino, solo la certeza de que, junto a ti, mi corazón siempre está en casa."
     },
     derecha: {
-      titulo: "HONEY",
-      imagen: "fotos/IMG4.png",
-      texto: "Amor, yo quiero estar toda mi vida contigo porque para mí eres la mejor persona del mundo. Para mí solo existes tú. Te amo mucho, demasiado, que cada vez que pienso en ti me pongo muy feliz y empiezo a llorar de felicidad."
+      titulo: "NOTAS DE MI CORAZON",
+      imagen: "fotos/IMG3.png",
+      texto: "Eres la melodía que vive en las notas de mi corazón; en ti todo encuentra armonía y sentido. Cuando pienso en ti, mi alma suena más suave, más viva, como si cada latido supiera exactamente por qué existe."
     }
   },
 
   {
     izquierda: {
-      titulo: "11 JUNIO",
-      imagen: "fotos/IMG6.jpg",
-      texto: "Amor, eres una gran persona. Sé que cumplirás cada una de tus metas y yo siempre te apoyaré en todo lo que tú quieras. Quiero que te vaya bien en tu carrera, con tu familia y que tú seas muy feliz porque eres una gran mujer y te lo mereces. Amor, quizá no me puedo comparar con las anteriores personas con las que estuviste, pero yo te amo mucho, nadie te amará como yo. Siempre te respetaré y te seré fiel con toda mi alma. Perdón por lastimarte y hacerte sentir triste, mi Ari. Intentaré cuidar más tu corazón."
+      titulo: "SOLEDAD COMPUESTA",
+      imagen: "fotos/IMG6.png",
+      texto: "Suelo abrazar la soledad sin miedo, pero contigo la soledad cambia de nombre: se vuelve refugio. Si estamos solos juntos, no falta nada; las notas de mi corazón encuentran compañía y todo en mí descansa en ti."
     },
     derecha: {
-      titulo: "Eternal Sunshine",
+      titulo: "DIVERSIÓN EN CASA",
       imagen: "fotos/IMG5.png",
-      texto: "Y por último quiero recordarte que yo siempre estaré para ti en las buenas y en las malas. Cada día intento mejorar para estar mejor y hacerte muy feliz y así será hasta que sea abuelita. Siempre resolveré los problemas para que estemos bien y cuidar mucho tu corazoncito, mi vida. Muchas gracias por las flores, soy la mujer más feliz del mundo y yo sé que quizá soy muy tonta, pero créeme que el amor que yo siento por ti es muy grande. Quisiera ser tu enamorada, tu novia y tu esposa."
+      texto: "La diversión en casa contigo tiene un brillo especial: risas sencillas, miradas cómplices y esa paz que convierte cualquier momento en algo inolvidable. No hace falta nada más; tu presencia llena el espacio y vuelve cada instante ligero y feliz."
     }
   }
 ];
